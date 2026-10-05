@@ -1,0 +1,27 @@
+{
+  "name": "asteroid-simulation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render AsteroidSimulation out/asteroid.mp4",
+    "lint": "eslint src && tsc"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.2.0",
+    "@remotion/cli": "workspace:*",
+    "@remotion/three": "workspace:*",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "workspace:*",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "workspace:*",
+    "@types/react": "19.2.7",
+    "@types/three": "0.170.0",
+    "eslint": "9.19.0",
+    "typescript": "5.9.3"
+  }
+}
